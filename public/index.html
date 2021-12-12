@@ -58,8 +58,10 @@
 
   <style>
 
-
-
+    iframe{
+        width: 100%;
+        border: 2px solid #ccc;
+    }
 
   </style>
  
@@ -93,7 +95,7 @@
         <div class="section-title">
           <h2>About</h2>
 
-          <iframe width="420" height="340" src="https://www.youtube.com/embed/ujkPkf-Cw_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe height="360" src="https://www.youtube.com/embed/ujkPkf-Cw_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>
 
            <br>
@@ -523,6 +525,16 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+  </script>
+
+  <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("myIframe");
+  
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
   </script>
 
 </body>
