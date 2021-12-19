@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: pink;
 }
 
 a:hover {
-  color: #067ded;
+  color: pink;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: pink;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -57,7 +57,7 @@ h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: pink;
   transition: background 0.2s ease-in-out;
 }
 
@@ -80,7 +80,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid pink;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -200,7 +200,7 @@ h6 {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: pink;
 }
 
 .nav-menu a:hover span,
@@ -258,7 +258,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/header.gif") top right no-repeat;
+  background: url("../img/header.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -313,7 +313,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: pink;
 }
 
 @media (max-width: 992px) {
@@ -401,7 +401,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: pink;
 }
 
 .about .content p:last-child {
