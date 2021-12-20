@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-weight: 800 !important;
 }
 
@@ -59,7 +59,13 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ff6a00),
+    to(#ee0979)
+  );
   background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
   background-position: center center;
@@ -84,7 +90,13 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#ee0979),
+    to(#ff6a00)
+  );
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 
@@ -138,7 +150,9 @@ header.masthead .bg-circle-4 {
   border-color: #ee0979;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #bd0760 !important;
   border-color: #bd0760 !important;
 }
@@ -153,7 +167,9 @@ header.masthead .bg-circle-4 {
   border-color: #ff6a00;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
   background-color: #cc5500 !important;
   border-color: #cc5500 !important;
 }
