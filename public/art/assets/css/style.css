@@ -295,7 +295,7 @@ h6 {
 }
 
 #hero p span {
-  color: gold;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -1133,7 +1133,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: white;
   color: #45505b;
   font-size: 14px;
   text-align: center;
