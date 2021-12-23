@@ -7,7 +7,7 @@
 body {
   font-family: "Lora";
   background: -webkit-gradient(linear, left top, left bottom, from(white)),
-    url("../img/bg.jpg");
+    url("../img/intro.png");
   background: linear-gradient white, url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
