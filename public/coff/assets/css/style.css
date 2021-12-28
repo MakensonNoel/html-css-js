@@ -258,7 +258,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/header.gif") top right no-repeat;
+  background: url("../img/header.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1133,7 +1133,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(252, 252, 252);
+  background: rgb(243, 255, 252);
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1163,7 +1163,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: red;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
