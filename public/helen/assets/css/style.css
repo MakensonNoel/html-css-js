@@ -164,13 +164,13 @@ h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: pink;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: white;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -183,7 +183,7 @@ h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: pink;
 }
 
 @media (min-width: 992px) {
@@ -237,7 +237,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: white;
 }
 
 .mobile-nav-active {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -295,7 +295,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: pink;
   letter-spacing: 1px;
 }
 
@@ -1163,7 +1163,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: pink;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
