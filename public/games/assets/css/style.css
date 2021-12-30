@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: red;
+  color: lightblue;
 }
 
 a:hover {
-  color: red;
+  color: lightblue;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: red;
+  background: lightblue;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -57,7 +57,7 @@ h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: red;
+  background: lightblue;
   transition: background 0.2s ease-in-out;
 }
 
@@ -80,7 +80,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid red;
+  border: 6px solid lightblue;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -164,13 +164,13 @@ h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: lightblue;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: white;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -183,7 +183,7 @@ h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: lightblue;
 }
 
 @media (min-width: 992px) {
@@ -200,7 +200,7 @@ h6 {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   color: #fff;
-  background: red;
+  background: lightblue;
 }
 
 .nav-menu a:hover span,
@@ -237,7 +237,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: lightblue;
 }
 
 .mobile-nav-active {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -295,7 +295,7 @@ h6 {
 }
 
 #hero p span {
-  color: red;
+  color: lightblue;
   letter-spacing: 1px;
 }
 
@@ -313,7 +313,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: red;
+  color: lightblue;
 }
 
 @media (max-width: 992px) {
@@ -401,7 +401,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: red;
+  color: lightblue;
 }
 
 .about .content p:last-child {
@@ -784,15 +784,15 @@ section {
   fill: #ffa76e;
 }
 
-.services .iconbox-red i {
+.services .iconbox-lightblue i {
   color: #e80368;
 }
 
-.services .iconbox-red:hover .icon i {
+.services .iconbox-lightblue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-red:hover .icon path {
+.services .iconbox-lightblue:hover .icon path {
   fill: #e80368;
 }
 
@@ -808,15 +808,15 @@ section {
   fill: #ffbb2c;
 }
 
-.services .iconbox-red i {
+.services .iconbox-lightblue i {
   color: #ff5828;
 }
 
-.services .iconbox-red:hover .icon i {
+.services .iconbox-lightblue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-red:hover .icon path {
+.services .iconbox-lightblue:hover .icon path {
   fill: #ff5828;
 }
 
@@ -972,7 +972,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: lightblue;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1133,7 +1133,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(252, 252, 252);
+  background: white;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1163,7 +1163,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: lightblue;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1176,7 +1176,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: lightblue;
   color: #fff;
   text-decoration: none;
 }
@@ -1185,6 +1185,6 @@ section {
   margin: 0 0 5px 0;
 }
 
-#footer .credits {
+#footer .clightblueits {
   font-size: 13px;
 }
