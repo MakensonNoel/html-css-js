@@ -170,7 +170,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: rgb(243, 255, 252);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -237,7 +237,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: white;
 }
 
 .mobile-nav-active {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: white;
 }
 
 /*--------------------------------------------------------------
