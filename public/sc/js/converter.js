@@ -27,8 +27,6 @@ document.getElementById("MPH_KM").onclick = function ()
     report(mph, km);
 };
 
-
-
 document.getElementById("KM_MPH").onclick = function () 
 {
 
