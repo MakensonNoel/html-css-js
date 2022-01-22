@@ -44,7 +44,7 @@ function checkHitWall() {
 }
 
 function draw() {
-    createRect(0,0,canvas.width, canvas.height, "silver")
+    createRect(0,0,canvas.width, canvas.height, "black")
     createRect(0,0, canvas.width, canvas.height)
 
     for (let i = 0; i < snake.tail.length; i++){
@@ -54,7 +54,7 @@ function draw() {
 
     canvasContext.font = "20px Arial"
     canvasContext.fillStyle = "gold"
-    canvasContext.fillText("Bags: " + (snake.tail.length -1),canvas.width - 120, 18)
+    canvasContext.fillText("🍎: " + (snake.tail.length -1),canvas.width - 120, 18)
     createRect(apple.x, apple.y, apple.size, apple.size, apple.color)
 }
 
@@ -137,7 +137,7 @@ class Apple{
             }
 
             this.size = snake.size
-            this.color = "green"
+            this.color = "red"
 
             if (!isTouching) {
                 break;
