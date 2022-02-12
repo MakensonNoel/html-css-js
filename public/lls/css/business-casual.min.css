@@ -125,7 +125,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .cta .cta-inner {
   position: relative;
