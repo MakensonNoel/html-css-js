@@ -371,7 +371,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: pink;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -426,7 +426,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: pink;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -478,7 +478,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: pink;
 }
 
 /*--------------------------------------------------------------
@@ -495,7 +495,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid pink;
   position: relative;
 }
 
@@ -505,7 +505,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: pink;
   margin-bottom: 10px;
 }
 
@@ -539,7 +539,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid pink;
 }
 
 /*--------------------------------------------------------------
@@ -574,7 +574,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: pink;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -903,7 +903,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: pink !important;
 }
 
 @media (min-width: 992px) {
@@ -922,7 +922,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: pink;
   float: left;
   width: 44px;
   height: 44px;
@@ -957,7 +957,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: pink;
   color: #fff;
 }
 
@@ -1036,7 +1036,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: pink;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1095,7 +1095,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: pink !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1187,4 +1187,156 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Tik Tac Toe
+--------------------------------------------------------------*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --cell-size: 100px;
+  --mark-size: calc(var(--cell-size) * 0.9);
+}
+
+body {
+  margin: 0;
+}
+
+.board {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+  border-top: none;
+}
+
+.cell:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.cell:nth-child(3n + 3) {
+  border-right: none;
+}
+
+.cell:last-child,
+.cell:nth-child(8),
+.cell:nth-child(7) {
+  border-bottom: none;
+}
+
+.cell.x,
+.cell.circle {
+  cursor: not-allowed;
+}
+
+.cell.x::before,
+.cell.x::after,
+.cell.circle::before {
+  background-color: pink;
+}
+
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+  background-color: lightgrey;
+}
+
+.cell.x::before,
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
+  content: "";
+  position: absolute;
+  width: calc(var(--mark-size) * 0.15);
+  height: var(--mark-size);
+}
+
+.cell.x::before,
+.board.x .cell:not(.x):not(.circle):hover::before {
+  transform: rotate(45deg);
+}
+
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::after {
+  transform: rotate(-45deg);
+}
+
+.cell.circle::before,
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::before,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cell.circle::before,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+  width: var(--mark-size);
+  height: var(--mark-size);
+}
+
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+  width: calc(var(--mark-size) * 0.7);
+  height: calc(var(--mark-size) * 0.7);
+  background-color: white;
+}
+
+.winning-message {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  flex-direction: column;
+}
+
+.winning-message button {
+  font-size: 3rem;
+  background-color: white;
+  border: 1px solid pink;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+}
+
+.winning-message button:hover {
+  background-color: pink;
+  color: white;
+  border-color: white;
+}
+
+.winning-message.show {
+  display: flex;
 }
