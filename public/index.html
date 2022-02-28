@@ -47,9 +47,10 @@
       <ul>
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
        <!-- <li><a href="#about"><i class="bx bx-user"></i> <span>Skills</span></a></li>-->
-        <li><a href="#skills"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
+        <li><a href="#skills"><i class="bx bx-plus"></i> <span>Skills</span></a></li>
        <!-- <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
         <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#games"><i class="bx bx-game"></i> <span>Games</span></a></li>
         <!--<li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
         <!--<li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>-->
       </ul>
@@ -70,6 +71,57 @@
 
     }
 
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: white;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 60px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
   </style>
 
   <!-- ======= Hero Section ======= -->
@@ -87,15 +139,38 @@
         <!--<a href="https://bests1tes.blogspot.com/" target="_blank" class="blogspot"><i class="bx bxl-blogger"></i></a>-->
 
         <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--<span style="font-size:30px;cursor:pointer" class="bx bx-user" onclick="openNav()">About</span>-->
       </div>
     </div>
+    
   </section><!-- End Hero -->
 
   <main id="main">
 
     <!-- ======= About Section ======= -->
 
-    <!--<section id="about" class="about">
+    <!--<section id="about" class="overlay">
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+
+           <br>
+            Hey, My name is Makenson Noel, pronounced (MAK-EN-SON  NOEL).
+
+            <br>
+            <br>
+            It was exciting walking across that stage and recieving my Bachelors of Science in Computer Science, this has been a huge accomplishment as I am a first generation college student and FAU Alumnus.
+            The journey to becoming an engineer has been a life changing expereience.
+          
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -555,40 +630,54 @@
       </div>
     </section><!-- End Contact Section -->
 
-        <!-- ======= Tic-Tac-Toe ======= -->
-        <section id="about" class="about">
-          <div class="container" data-aos="fade-up">
-    
-            <div class="section-title">
-              <h2>Tic-Tac-Toe</h2>
-    
-    
-              <div class="board" id="board" >
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-                <div class="cell" data-cell></div>
-            </div>
-            <div class="winning-message" id="winningMessage">
-                <div data-winning-message-text></div>
-                <button id="restartButton">Restart</button>
-            </div>
+     <!-- ======= Portfolio Section ======= -->
+     <section id="games" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Tic-Tac-Toe</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <!--<div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <!--<li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-tic">Tic</li>
+              <li data-filter=".filter-tac">tac</li> 
+              <li data-filter=".filter-java">Java</li>
+              <li data-filter=".filter-python">Python</li> 
+            </ul>
           </div>
-          </div>
-         
-            </div>
-          </div>
-        </section>
+        </div>-->
+
+
     
-    
-    
+          <div class="board" id="board" >
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div class="winning-message" id="winningMessage">
+            <div data-winning-message-text></div>
+            <button id="restartButton">Restart</button>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+
+
+    </section>
 
   </main><!-- End #main -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -669,6 +758,18 @@
       iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
     }
   </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+  
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+
 
   
   <!--Tic Toe Javascript-->
