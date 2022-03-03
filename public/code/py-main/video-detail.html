@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyradise</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+
+
+	
+	
+
+  <!-- Previously loaded Firebase SDKs -->
+
+  <!-- Initialize Firebase -->
+	
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyCtZ-9WQyxVF2D0Naf6c6_LQwUPGq1goJc",
+	    authDomain: "pyradise-e0e9f.firebaseapp.com",
+	    projectId: "pyradise-e0e9f",
+	    storageBucket: "pyradise-e0e9f.appspot.com",
+	    messagingSenderId: "36758105370",
+	    appId: "1:36758105370:web:b1e43961f83406afa810a3"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/init.js"></script>
+    <script src="js/login.js"></script>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+				<img src ="img/Pyradise%20Logo.png" height=60>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a id="curUser" class="nav-link nav-link-4" href="survey.html">Username</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-4" href="contact.html">Founders</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4"><iframe height="830" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Comments</h2>
+        </div>
+        <div id="comments" class="row tm-mb-90">    
+
+			<div id="tplComment" class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                 <span class="">Posted By</span>
+                                 <span name="posted_by">John Appleseed</span>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+                                 <span class="">Date</span>
+                                 <span name="posted_on">01/01/2020</span>
+                            </div>
+                        </div>
+                        <p name="body">This is my comment. There are many others like it but this one is mine.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-8">
+                                 
+                                <button name="btnReply" type="button" class="btn btn-success" onClick="replyForm();">
+                                    Reply...
+                                </button>
+                            </div>
+                            <div class="col-md-4">
+                                 
+                                <button type="button" class="btn btn-danger">
+                                    Flag (Spam)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+            </div>
+					
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6tgtV8gjt9X1TlXCPdfEA0L1Py8cYO9fitS4I5EoSgIPHxQ/viewform?embedded=true" width="640" height="1005" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
+       
+        </div>
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                Related Videos
+            </h2>
+        </div>
+        <div class="row mb-3 tm-gallery">
+		<div id = "related" class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <!--<img src="img/img-01.jpg" alt="Image" class="img-fluid">-->
+					
+					<iframe width="425" height="230" src="https://www.youtube.com/embed/KOdfpbnWLVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        
+                        <a href="video5.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <!--<img src="img/img-01.jpg" alt="Image" class="img-fluid">-->
+					
+					<iframe width="425" height="230" src="https://www.youtube.com/embed/C6jJg9Zan7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        
+                        <a href="video6.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <!--<img src="img/img-01.jpg" alt="Image" class="img-fluid">-->
+					
+					<iframe width="425" height="230" src="https://www.youtube.com/embed/9Os0o3wzS_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        
+                        <a href="video7.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <!--<img src="img/img-01.jpg" alt="Image" class="img-fluid">-->
+					
+					<iframe width="425" height="230" src="https://www.youtube.com/embed/XwcJ9_hijdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        
+                        <a href="video8.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                   
+                </div>
+            </div>
+       
+        </div> <!-- row -->
+    </div> <!-- container-fluid, tm-container-content -->
+
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                    Copyright 2020 Pyradise. All rights reserved.
+				</div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+            objUserName=document.getElementById("curUser");
+            curUser=loadUserProfile();
+            objUserName.innerHTML=curUser.email;
+        });
+    </script>
+    <script src="js/firestore.js"></script>
+    <script>
+        function loadComments(contentid)
+        {
+            aryComments=getCommentsByContentId(contentid);
+            aryComments.forEach(
+                function(curComment) {
+                    nodeComment=drawComment(curComment);
+                    if (!curComment.replyTo==null) {
+                        parent=document.getElementById("comments");
+                    } else {
+                        parent=this.getElementById(curComment.replyTo);
+                    }
+                    parent.appendChild(nodeComment);
+                    //make it visible
+                    nodeComment.classList.remove("d-none");
+                }
+            );
+        }
+        function drawComment(curComment)
+        {
+            template=document.getElementById("tplComment");
+            newComment=template.cloneNode();
+            newComment.nodeValue("id").innerHTML=curComment.id;
+            newComment.nodeValue("contentid").innerHTML=curComment.contentid;
+            newComment.elements.namedItem("posted_by").innerHTML=curComment.posted_by;
+            newComment.elements.namedItem("body").innerHTML=curComment.body;
+            newComment.nodeValue("replyTo")=curComment.replyTo;
+            newComment.elements.namedItem("btnReply").value("onClick")="replyForm("+curComment.id+");"
+            
+            return newComment;
+        }
+        function replyForm(replyTo)
+        {
+            frm=document.getElementById("tplReply");
+            if (replyTo != NULL) {
+                parent=document.getElementById("comments");
+            } else {
+                parent=document.getElementById(replyTo);
+            }
+            parent.appendChild(frm);
+            frm.reset;
+            frm.elements.namedItem("replyTo").value=replyTo;
+            frm.elements.namedItem("contentid").value=thisContent.id;
+            frm.classList.remove("d-none");
+        }
+        function doReply() {
+            var obj={};
+            var frm=document.getElementById("tplReply");
+            obj.push("contentid").push(frm.elements.namedItem("contentid").value);
+            obj.push("replyTo").push(frm.elements.namedItem("replyTo").value);
+            obj.push("body").push(frm.elements.namedItem("body").value);
+            obj.push("posted_by").push(curUser.email);
+            var fbComment=Comment.create(obj);
+            var newComment=drawComment(fbComment);
+            frm.parentElement.appendChild(newComment);
+            //hide the form
+            frm.classList.add("d-none");        
+        }
+        function saveComment()
+        {
+            
+        }
+    </script>
+</body>
+</html>
