@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Makenson</title>
+  <title>Code</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -71,55 +71,54 @@
 
     }
 
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
 
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
 
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
+    .overlay a:hover, .overlay a:focus {
+      color: white;
+    }
 
-.overlay a:hover, .overlay a:focus {
-  color: white;
-}
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
 
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 60px;
-  top: 15px;
-  right: 35px;
-  }
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+    }
 }
 
   </style>
@@ -130,9 +129,9 @@
 
       
       <!--<img src="assets/img/profile.jpg"  width="208" height="311"  class="img-fluid" alt="Avatar">-->
-      <h1>Makenson Noel</h1>
+      <h1>Code</h1>
       <!--<p><span class="typed" data-typed-items="Software Engineer"></span></p>-->
-      <div class="social-links">
+      <!--<div class="social-links">
         <a href="https://github.com/MakensonNoel" target="_blank" class="github"><i class="bx bxl-github"></i></a>
         <a href="https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
         <a href="https://www.linkedin.com/in/makensonnoel/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
@@ -191,7 +190,7 @@
       </div>
     </section>-->
 
-    <!-- ======= Skills Section ======= -->
+    <!-- ======= Skills Section ======= -
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -254,7 +253,7 @@
       </div>
     </section>
           
-      </section><!-- End Skills Section -->
+      </section><!-- End Skills Section 
                   
     <!-- End About Section --> 
 
@@ -737,6 +736,7 @@
     const firebaseConfig = {
       apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
       authDomain: "makenson-portfolio.firebaseapp.com",
+      databaseURL: "https://makenson-portfolio-default-rtdb.firebaseio.com",
       projectId: "makenson-portfolio",
       storageBucket: "makenson-portfolio.appspot.com",
       messagingSenderId: "229564861118",
