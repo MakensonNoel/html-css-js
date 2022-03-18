@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/templatemo-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Code</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v2.2.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+
+   <!--- <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+       <!-- <li><a href="#about"><i class="bx bx-user"></i> <span>Skills</span></a></li>-->
+      <!--<li><a href="#skills"><i class="bx bx-plus"></i> <span>Skills</span></a></li>-->
+       <!-- <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#games"><i class="bx bx-game"></i> <span>Games</span></a></li>
+        <!--<li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
+        <!--<li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>-
+      </ul>
+    </nav><!-- .nav-menu -->
+
+
+  </header><!-- End Header -->
+
+  <style>
+
+    iframe{
+        width: 100%;
+        border: 2px solid #ccc;
+    }
+
+    img {
+      
+      border: 2px solid #ccc;
+
+    }
+
+   * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+      color: white;
+    }
+
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+    }
+}
+
+  </style>
+
+  <!-- ======= Hero Section ======= --
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+
+      
+      <!--<img src="assets/img/profile.jpg"  width="208" height="311"  class="img-fluid" alt="Avatar">--
+      <h1>Code</h1>
+      <!--<p><span class="typed" data-typed-items="Software Engineer"></span></p>-->
+      <!--<div class="social-links">
+        <a href="https://github.com/MakensonNoel" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/makensonnoel/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <!--<a href="https://bests1tes.blogspot.com/" target="_blank" class="blogspot"><i class="bx bxl-blogger"></i></a>-->
+
+        <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+        <!--<span style="font-size:30px;cursor:pointer" class="bx bx-user" onclick="openNav()">About</span>--
+      </div>
+    </div>
+    
+  </section>
+  <!-- End Hero -- >-->
+
+  <!--<main id="main">-->
+
+    <!-- ======= About Section ======= -->
+
+    <!--<section id="about" class="overlay">
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+
+           <br>
+            Hey, My name is Makenson Noel, pronounced (MAK-EN-SON  NOEL).
+
+            <br>
+            <br>
+            It was exciting walking across that stage and recieving my Bachelors of Science in Computer Science, this has been a huge accomplishment as I am a first generation college student and FAU Alumnus.
+            The journey to becoming an engineer has been a life changing expereience.
+          
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <!--<h2>About</h2>
+
+          <iframe height="360" src="https://www.youtube.com/embed/ujkPkf-Cw_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>
+
+           <br>
+            Hey, My name is Makenson Noel, pronounced (MAK-EN-SON  NOEL).
+
+            <br>
+            <br>
+            It was exciting walking across that stage and recieving my Bachelors of Science in Computer Science, this has been a huge accomplishment as I am a first generation college student and FAU Alumnus.
+            The journey to becoming an engineer has been a life changing expereience. 
+     
+        </div>
+      </div>
+    </section>-->
+
+    <!-- ======= Skills Section ======= -
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Programming</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">C++ <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+          
+      </section><!-- End Skills Section 
+                  
+    <!-- End About Section --> 
+
+    <!-- ======= Resume Section ======= 
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2> 
+            <a href="Makenson Noel Resume.pdf" target="_blank">
+              <i class="bx bx-file-blank"></i> Resume</a>
+        </div> -->
+
+        <!--<div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor Of Science in Computer Science</h4>
+              <h5>January 2019 - August 2021</h5>
+              <p><em>Florida Atlantic University, Boca, FL</em></p>
+              <p>Major: Computer Science <br> <br>Related coursework: Foundations of Computer Science, Data Structures, Design & Analysis of Algorithms, Database Structures, Stochastic Models for Computer Science, Computer Operating Systems, Artificial Intelligence, Mobile Apps, Principles of Software Engineering, Calculus II, Foundations of Cybersecurity, Internet of things, Engineering Design I, Matrix Theory, Python Programming, Engineering Design II.</p>
+            </div>
+              
+            <h3 class="resume-title">Volunteering</h3>
+            <div class="resume-item">
+                <h4> Give Kids The World Village </h4> 
+                <p><em>Experion, New York, NY </em></p>
+                <p>a nonprofit resort for children with critical illnesses. </p>
+            </div>
+              
+            <div class="resume-item">
+                <h4> Relay for life </h4> 
+                <p><em>Experion, New York, NY </em></p>--
+                <p>a community-based fundraising event for the American Cancer Society.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+              
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+                <h4> Broward College Hackathon 2019 </h4> 
+                <p><em>Experion, New York, NY </em></p>--
+                <p> Developed “NOB” at a 24 Hour Hackathon. </p> <p> NOB stands for the “Network of Business” and it is a website connecting talents to recruiters.  </p>
+            </div>
+              
+            <div class="resume-item">
+                <h4> Broward College Hackathon 2018 </h4> 
+                <p><em>Experion, New York, NY </em></p>--
+                <p>Won best presentation for the application LOCOL at a 24 Hour Hackathon. </p> <p> LOCOL is for people of low income, Users will be eligible to have the best prices on local groceries.  </p>
+              
+            </div>
+                
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+                <h4> Material Handling Robot </h4> 
+                <p><em>Experion, New York, NY </em></p>--
+                <p>Sponsored by Florida Power & Light (FPL). </p> <p>Inventory Robot</p>
+            </div>
+              
+            <div class="resume-item">
+                <h4> Pyradise </h4> 
+                <p><em>Experion, New York, NY </em></p>--
+                <p>Founder of Pyradise and team leader of development. </p> <p> Pyradise is a python tutorial website created for inexperienced users </p> <p> Developed Pyradise with Html, JavaScript, Firebase, and Bootstrap. </p>
+              
+            </div>
+                         
+          </div>
+        </div>
+
+      </div>
+    </section> End Resume Section --> 
+
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up" class="main"> 
+
+        <div class="section-title">
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!--<li data-filter=".filter-app">App</li> -->
+              <!--<li data-filter=".filter-card">Card</li>-->
+              <!--<li data-filter=".filter-web">Web</li>-->
+
+              <li data-filter=".filter-web">Full Course</li>
+              <li data-filter=".filter-cpp">Beginner</li> 
+              <li data-filter=".filter-java">Intermediate</li>
+              <li data-filter=".filter-python">Advanced</li>
+              <li data-filter=".filter-web">Interview Prep</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+          <!--Websites-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/websites/art.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Makenson's Art Photography</h4>
+                <p>A art website I developed with HTML, CSS, Bootstrap and JavaScript</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://makenson.com/art"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/websites/gym.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Makenson's Gym Workouts</h4>
+                <p>Workout schedule I developed with HTML, CSS, Bootstrap and JavaScript</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://makenson.com/gym"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/websites/cof.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Coding is Fun</h4>
+                <p>Programming information site I developed with HTML, CSS, Bootstrap and JavaScript</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://makenson.com/coff"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--C++ Projects-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cpp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cpp/TwoLargest.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Two Largest</h4>
+                <p>Two largest in array algorithm in c++</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/TwoLargest#main.cpp" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cpp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cpp/Fibonacci.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Fibonacci</h4>
+                <p>Fibonacci algorithm in c++</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/Fibonacci#main.cpp" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cpp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cpp/Single linked list.jpg" target="_blank" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Single Linked List</h4>
+                <p>Single Linked List Algorithm in C++</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/Single-linked-list#main.cpp" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Java Projects-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/java/Rainfall.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Average Rainfall</h4>
+                <p>Average rainfall calculator in Java</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/Rainfalll-Array#Main.java" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/java/Grades.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Grade Result</h4>
+                <p>Grade result algorithm in Java</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/Grades-to-letter-with-individual-ifs#Main.java" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/java/EvenOrOdd.jpg" target="_blank" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Even or Odd</h4>
+                <p>Even or Odd Algorithm in Java</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/Enter-Numbers-Array#Main.java" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Python Projects-->
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python/PyGraph.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PyGraph</h4>
+                <p>Created a python function that draws a sphere using turtle</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/PyGraph#main.py" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python/456.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Dice Probability Simulator</h4>
+                <p>Programmed a function that simulates dice games
+                   with the goal of getting 4,5 & 6 in a row in python</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/456" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/python/Motion.jpg" target="_blank" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Motion Detector</h4>
+                <p>Created a motion detection device with a raspberry pi and this is the source code in python</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                  <a href="https://replit.com/@MakensonNoel/motion#main.py" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Pyradise%20log%20in.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pyradise</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                  <!--<a href="portfolio-details.html"  data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="https://pyradisesw.github.io/py/" target="_blank"> <i class="bx bx-link"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= 
+   <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Mnoel2018@fau.edu</p>
+              </div>
+
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Plantation, Florida</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!--<div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please type something" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div> -->
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Code</h3>
+      <p>Just keep coding</p>
+      <div class="social-links">
+
+        <a href="https://makenson.com/" target="_blank"><i class="bx bx-link"></i></a>
+        <!--<a href="https://www.linkedin.com/in/makensonnoel/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/MakensonNoel" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.youtube.com/channel/UCqXnQJAjBqTwqAE2MRky3Fw" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://bests1tes.blogspot.com/" target="_blank" class="blogspot"><i class="bx bxl-blogger"></i></a>-->
+      </div>
+      <img src="Portfolio%20QR.png" class="img-fluid" alt="" height = "120" width = "120">
+      <div class="copyright">
+        Copyright &copy; <strong><span>Makenson Noel</span></strong>. All Rights Reserved <br>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
+      authDomain: "makenson-portfolio.firebaseapp.com",
+      databaseURL: "https://makenson-portfolio-default-rtdb.firebaseio.com",
+      projectId: "makenson-portfolio",
+      storageBucket: "makenson-portfolio.appspot.com",
+      messagingSenderId: "229564861118",
+      appId: "1:229564861118:web:285b4afe705b0faebdacef",
+      measurementId: "G-M5Z491038B"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("myIframe");
+  
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+  
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+  
+  <!--Tic Toe Javascript-->
+  <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>

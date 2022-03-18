@@ -132,20 +132,21 @@
   
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
-      authDomain: "makenson-portfolio.firebaseapp.com",
-      projectId: "makenson-portfolio",
-      storageBucket: "makenson-portfolio.appspot.com",
-      messagingSenderId: "229564861118",
-      appId: "1:229564861118:web:285b4afe705b0faebdacef",
-      measurementId: "G-M5Z491038B"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
+	const firebaseConfig = {
+	apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
+	authDomain: "makenson-portfolio.firebaseapp.com",
+	databaseURL: "https://makenson-portfolio-default-rtdb.firebaseio.com",
+	projectId: "makenson-portfolio",
+	storageBucket: "makenson-portfolio.appspot.com",
+	messagingSenderId: "229564861118",
+	appId: "1:229564861118:web:b3148473793ad600bdacef",
+	measurementId: "G-DG177VE5HE"
+	};
+
+// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+</script>
 
 <script>
 	// When the user clicks on <div>, open the popup
