@@ -1,3 +1,0 @@
-#Pyradise
-
-Python tutorial website
