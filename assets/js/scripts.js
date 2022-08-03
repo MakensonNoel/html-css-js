@@ -5,22 +5,6 @@
 // Scripts
 // 
 
-//Firebase Configiration
-const firebaseConfig = {
-    apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
-    authDomain: "makenson-portfolio.firebaseapp.com",
-    databaseURL: "https://makenson-portfolio-default-rtdb.firebaseio.com",
-    projectId: "makenson-portfolio",
-    storageBucket: "makenson-portfolio.appspot.com",
-    messagingSenderId: "229564861118",
-    appId: "1:229564861118:web:285b4afe705b0faebdacef",
-    measurementId: "G-M5Z491038B"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
 //Custom Scroll to top JavaScript function
 $(function(){
     //Function To Add Class
@@ -52,6 +36,22 @@ $(function(){
     //Check the scroll position once when the page loads
     checkScrollPos();
 })
+
+//Firebase Configiration
+const firebaseConfig = {
+    apiKey: "AIzaSyCT76hoEQLxZ03zc5j5AZbNm7RhfIO-Ffw",
+    authDomain: "makenson-portfolio.firebaseapp.com",
+    databaseURL: "https://makenson-portfolio-default-rtdb.firebaseio.com",
+    projectId: "makenson-portfolio",
+    storageBucket: "makenson-portfolio.appspot.com",
+    messagingSenderId: "229564861118",
+    appId: "1:229564861118:web:285b4afe705b0faebdacef",
+    measurementId: "G-M5Z491038B"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 
 window.addEventListener('DOMContentLoaded', event => {
 
