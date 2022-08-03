@@ -23,7 +23,7 @@ To do List
 - Make Java Pages [Listing top 3 projects on resume].
 - Make Web development pages [Listing top 3 projects on resume].
 
--Finish Blog.
+- Finish Blog [Theres more to add but im tired and need to reenergize] 🔋.
 
 7/2022
 
