@@ -26,6 +26,8 @@ To do List
 - Finish Resume, Proof Read and Upload.
 - Make GitHub look really nice.
 
+- Remove "love the" from about me section in resume.
+
 - Finish Blog [Theres more to add but im tired and need to reenergize] 🔋.
 
 7/2022
