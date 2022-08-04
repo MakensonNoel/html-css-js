@@ -23,6 +23,9 @@ To do List
 - Make Java project usign API'S and Spring.
 - Build more on web project.
 
+- Finish Resume, Proof Read and Upload.
+- Make GitHub look really nice.
+
 - Finish Blog [Theres more to add but im tired and need to reenergize] 🔋.
 
 7/2022
