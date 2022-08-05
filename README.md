@@ -28,7 +28,7 @@ To do List
 
 - Remove "love the" from about me section in resume.
 
-- Finish Blog [Theres more to add but im tired and need to reenergize] 🔋.
+- Finish Blog [Theres more to add] 🔋.
 
 7/2022
 
