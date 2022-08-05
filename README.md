@@ -35,7 +35,7 @@ To do List
 - Added Scroll to the top button.
 - Added projects.
 
-8/2/2022
+8/2022
 
 - Finally Created a Blog.
 - Learned Vue.JS
