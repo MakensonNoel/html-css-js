@@ -24,7 +24,7 @@ To do List
 - Build more on web project.
 
 - Finish Resume, Proof Read and Upload.
-- Make GitHub look really nice.
+- Make GitHub look really nice...
 
 - Remove "love the" from about me section in resume.
 
