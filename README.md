@@ -23,6 +23,8 @@ To do List
 - Make Java project usign API'S and Spring.
 - Build more on web project.
 
+- Make everything one page, add projects and block to index.html
+
 - Finish Resume, Proof Read and Upload.
 - Make GitHub look really nice...
 
