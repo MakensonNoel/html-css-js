@@ -24,7 +24,8 @@ To do List
 - Build more on web project.
 
 - Make everything one page, add projects and block to index.html.
-- Make custom CSS and change colors, maybe move nav bar to the top.
+- Make custom CSS and change colors, maybe move nav bar to the top. [USE TAILWINDCSS]
+- Make Projects with React
 
 - Finish Resume, Proof Read and Upload.
 - Make GitHub look really nice...
