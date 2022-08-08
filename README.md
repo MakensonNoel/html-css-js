@@ -44,3 +44,5 @@ To do List
 - Finally Created a Blog.
 - Learned Vue.JS
 - Hosted website on Github. 
+
+- Started over and made a portfolio from scratch with React. (Makenson.com)
