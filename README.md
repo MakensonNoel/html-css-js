@@ -1,16 +1,6 @@
-# makensonn.github.io
-My updated portfolio
-
+# College Portfolio
 
 #Portfolio
-
-Theme
-- From https://startbootstrap.com [They have great bootstrap themes].
-
-Stack
-- Petite-vue.
-- Firebase.
-- [The more simple the better, keeps thing less complicated].
 
 To do List
 
@@ -29,8 +19,6 @@ To do List
 
 - Finish Resume, Proof Read and Upload.
 - Make GitHub look really nice...
-
-- Remove "love the" from about me section in resume.
 
 - Finish Blog [Theres more to add] 🔋.
 
